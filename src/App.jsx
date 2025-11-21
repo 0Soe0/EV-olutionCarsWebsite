@@ -5,11 +5,13 @@ import { Explore } from './pages/Explore/Explore';
 import { NotFound } from './pages/NotFound/NotFound';
 import { Features } from './pages/Features/Features';
 import { Routes, Route } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
 
 export const App = () => {
 
   return (
     <div>
+      <Toaster position='bottom-right' />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
