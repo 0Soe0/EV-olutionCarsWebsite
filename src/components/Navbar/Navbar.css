@@ -20,3 +20,8 @@
   list-style: none;
   gap: 2rem;
 }
+
+.nav-menu a {
+  text-decoration: none;
+  color: inherit;
+}
