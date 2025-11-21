@@ -65,3 +65,8 @@
   color: #fff;
   font-size: 1.2rem;
 }
+
+.hero a {
+  text-decoration: none;
+  color: inherit;
+}

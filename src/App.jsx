@@ -3,6 +3,7 @@ import { About } from './pages/About/About';
 import { Contact } from './pages/Contact/Contact';
 import { Explore } from './pages/Explore/Explore';
 import { NotFound } from './pages/NotFound/NotFound';
+import { Features } from './pages/Features/Features';
 import { Routes, Route } from 'react-router-dom';
 
 export const App = () => {
@@ -14,6 +15,7 @@ export const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/explore' element={<Explore />} />
+        <Route path='/features' element={<Features />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </div>
